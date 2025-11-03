@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+
+    <title>My Portfolio | Web Developer</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="index.js"></script>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="logo">
+            <img src="logo.png" alt="">
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-image">
+                <img src="profile.jpg" alt="profile" class="profile-pic">
+                 <!-- <img src="https://cdni.iconscout.com/illustration/premium/thumb/female-user-image-illustration-svg-download-png-6515859.png"
+                    alt="Profile" class="profile-pic" /> -->
+            </div>
+
+            <div class="hero-text">
+                <h1 class="slide-up">Hi,I'm <span>Lopamudra </span></h1>
+                <h3 class="typing-text"></h3>
+                <p class="fade-in-delay">
+                    I'm a creative Front-End Developer with a passion for crafting modern,
+                    responsive, and visually appealing web experiences. I enjoy turning complex
+                    problems into simple, beautiful, and intuitive designs.
+                </p>
+
+
+                <div class="hero-buttons fade-in-delay">
+                    <a href="#projects" class="btn glow-btn">See My Work</a>
+                    <a href="Lopamudra_Ghosh.pdf" download class="btn-outline">
+                        <i class="fas fa-download"></i> Download CV
+                    </a>
+                </div>
+
+                <div class="social-icons fade-in-delay">
+                    <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/lopamudra-ghosh-a97032295?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="lopamudraghosh53@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- About -->
+    <section id="about" class="about">
+        <div class="about-container">
+            <div class="about-image fade-in-left">/
+                <img src="aboutimg.jpg" alt="About Me">
+                <!-- <img src="https://img.freepik.com/premium-vector/portrait-business-woman_505024-2799.jpg"
+                    alt="About Me" /> -->
+            </div>
+
+            <div class="about-content fade-in-right">
+                <h2>About Me</h2>
+                <p>
+                    Hello! 👋 I'm <strong>Lopamudra Ghosh</strong>, a passionate <strong>Front-End Developer</strong>
+                    dedicated
+                    to crafting modern, responsive, and visually engaging web applications.
+                    I thrive on creating seamless user experiences and bringing creative ideas to life through clean,
+                    efficient code.
+                </p>
+                <p>
+                    I specialize in technologies like <strong>HTML5, CSS3, JavaScript (ES6+), and React.js</strong>.
+                    My goal is to merge design and technology to deliver intuitive digital products that make a real
+                    impact.
+                </p>
+
+                <div class="about-buttons">
+                    <a href="#projects" class="btn glow-btn">See My Work</a>
+                    <a href="#contact" class="btn-outline">Contact Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Skills -->
+    <section id="skills" class="skills">
+        <h2>My Skills</h2>
+
+        <div class="skill-grid">
+            <div class="skill-card fade-in-up">
+                <i class="fab fa-html5" style="color: #e34c26;"></i>
+                <h3>HTML5</h3>
+                <p>Clean, semantic, and SEO-friendly structure.</p>
+            </div>
+
+            <div class="skill-card fade-in-up">
+                <i class="fab fa-css3-alt" style="color: #264de4;"></i>
+                <h3>CSS3 / SASS</h3>
+                <p>Modern styling with animations and preprocessors.</p>
+            </div>
+
+            <div class="skill-card fade-in-up">
+                <i class="fab fa-js-square" style="color: #f7df1e;"></i>
+                <h3>JavaScript</h3>
+                <p>Dynamic, interactive, and optimized functionality.</p>
+            </div>
+
+            <div class="skill-card fade-in-up">
+                <i class="fab fa-react" style="color: #61dbfb;"></i>
+                <h3>React</h3>
+                <p>Building fast, component-based UIs and SPAs.</p>
+            </div>
+
+            <div class="skill-card fade-in-up">
+                <i class="fab fa-node-js" style="color: #68a063;"></i>
+                <h3>Node.js</h3>
+                <p>Back-end development with scalable APIs.</p>
+            </div>
+
+            <div class="skill-card fade-in-up">
+                <i class="fas fa-pencil-ruler" style="color: #ffb400;"></i>
+                <h3>UI/UX Design</h3>
+                <p>Designing intuitive interfaces & experiences.</p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Projects -->
+    <section id="projects" class="projects">
+        <h2>My Projects</h2>
+
+        <div class="project-container">
+            <!-- Project 1 -->
+            <div class="project-card fade-in-up">
+                <div class="project-image">
+                    <img src="https://images-wixmp-530a50041672c69d335ba4cf.wixmp.com/templates/image/8cbcfd79df10d5e052cd6bf2ebf3eaa6b5417ea6b0327aaee2ae8c804e0a0b571615215483635.jpg"
+                        alt="Portfolio Website" />
+                    <div class="project-overlay">
+                        <a href="#" class="project-btn" target="_blank"><i class="fas fa-eye"></i> View Demo</a>
+                        <a href="#" class="project-btn" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Portfolio Website</h3>
+                    <p>A modern responsive portfolio built using HTML, CSS & JavaScript.</p>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card fade-in-up">
+                <div class="project-image">
+                    <img src="https://www.verzdesign.com/wp-content/uploads/2023/06/ecommerce-website-development-UX-importance.jpg"
+                        alt="E-commerce UI" />
+                    <div class="project-overlay">
+                        <a href="#" class="project-btn" target="_blank"><i class="fas fa-eye"></i> View Demo</a>
+                        <a href="#" class="project-btn" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>E-commerce UI</h3>
+                    <p>An elegant shopping interface with product filtering and cart system.</p>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card fade-in-up">
+                <div class="project-image">
+                    <img src="https://static.vecteezy.com/system/resources/previews/008/063/100/large_2x/rear-view-portrait-of-young-man-traveler-with-backpack-standing-on-a-mountain-with-arms-spread-open-travel-life-style-and-adventure-concept-free-photo.jpg"
+                        alt="Travel Blog" />
+                    <div class="project-overlay">
+                        <a href="#" class="project-btn" target="_blank"><i class="fas fa-eye"></i> View Demo</a>
+                        <a href="#" class="project-btn" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Travel Blog</h3>
+                    <p>A clean and minimal blog layout with smooth scrolling animations.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+        <div class="contact-container">
+            <!-- Left Side (Image) -->
+            <div class="contact-image fade-in-left">
+                <img src="https://static.vecteezy.com/system/resources/thumbnails/020/804/109/small/communication-and-technology-concept-hand-putting-wooden-block-cube-symbol-telephone-email-address-website-page-contact-us-or-e-mail-marketing-contact-us-in-customer-support-concept-photo.jpg"
+                    alt="Contact Illustration" />
+            </div>
+
+            <!-- Right Side (Form) -->
+            <div class="contact-form fade-in-right">
+                <h2>Get In Touch</h2>
+                <p>Have a project or idea in mind? Let’s collaborate and make it happen!</p>
+
+                <form id="contactForm" action="mailto:youremail@example.com" method="POST" enctype="text/plain">
+                    <div class="form-group">
+                        <i class="fas fa-user"></i>
+                        <input type="text" name="name" placeholder="Your Name" required />
+                    </div>
+
+                    <div class="form-group">
+                        <i class="fas fa-envelope"></i>
+                        <input type="email" name="email" placeholder="Your Email" required />
+                    </div>
+
+                    <div class="form-group">
+                        <i class="fas fa-pen"></i>
+                        <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn glow-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Font Awesome (for icons) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+
+
+
+
+
+    <footer>
+        <p>© 2025 Lopamudra. Built with 💙 using HTML, CSS, and JavaScript.</p>
+    </footer>
+
+
+
+
+    <script src="https://kit.fontawesome.com/a2e0c7a0f1.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
